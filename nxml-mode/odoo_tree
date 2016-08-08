@@ -1,0 +1,17 @@
+#key : odoo_tree
+#name : odoo tree
+#contributor: Ildar Nasyrov <iledarn@gmail.com>
+# --
+<record id="model_name_view_tree" model="ir.ui.view">
+<field name="name"></field>
+<field name="model"></field>
+<field name="arch" type="xml">
+<tree string="">
+<sheet>
+<group>
+<field name="name"/>
+</group>
+</sheet>
+</tree>
+</field>
+</record>

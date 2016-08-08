@@ -1,0 +1,17 @@
+#key : odoo_form 
+#name : odoo form 
+#contributor: Ildar Nasyrov <iledarn@gmail.com>
+# --
+<record id="model_name_view_form" model="ir.ui.view">
+<field name="name"></field>
+<field name="model"></field>
+<field name="arch" type="xml">
+<form string="">
+<sheet>
+<group>
+<field name="name"/>
+</group>
+</sheet>
+</form>
+</field>
+</record>
